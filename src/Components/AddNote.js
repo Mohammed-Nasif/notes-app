@@ -52,7 +52,7 @@ const AddNote = ({ setNotes, notes, setBgColor, bgColor }) => {
       setInputValue({ title: "", note: "" });
     }
   };
-  const { colorMode } = useColorMode;
+  const { colorMode } = useColorMode();
   return (
     <Flex justify={"center"} align={"center"} m={"10px"} mt={"30px"}>
       <Flex
