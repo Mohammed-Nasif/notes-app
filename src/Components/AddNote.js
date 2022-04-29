@@ -59,7 +59,7 @@ const AddNote = ({ setNotes, notes, setBgColor, bgColor }) => {
         width={"340px"}
         borderRadius={4}
         shadow={"base"}
-        bg={colorMode === "dark" ? "gray.700" : ""}
+        bg={colorMode === "dark" ? "gray.800" : ""}
         borderWidth={1}
         p={4}
         direction={"column"}
